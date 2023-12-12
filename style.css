@@ -1,0 +1,188 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Anpassa utseendet för bilden med en rund ram */
+.circular-image {
+    width: 250px;
+    max-width: 250px;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 10px auto;
+  }
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+  /* Anpassad stil för kontakt */
+
+.contact-info a::before {
+    font-family: "FontAwesome";
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .email-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+    color: #1350b3;
+  }
+  
+  .fa-phone {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .fa-phone:hover {
+    text-decoration: underline;
+    color: #1350b3;
+}
+
+
+#project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 45%;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+#menu {
+    list-style-type: none;
+    flex-direction: row; 
+    padding: 0px;
+
+}
+
+#menu li {
+    margin: 10px 0;
+}
+
+.sticky {
+	position: sticky;
+	top: 0;
+}
+
+@media (max-width: 1081px) {
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        position: sticky;
+        background-color: #bababa;
+        
+        position: fixed;
+        top: 25px;
+        right: 10px;
+        z-index: 2;
+
+    }
+    #menu.hidden {
+        display: none;
+        position: absolute;
+        background-color: #ff0000;
+        top: 50px;
+    }
+
+    #menu{
+        flex-direction: column; 
+        justify-content:  space-around;
+        list-style-type: none;
+        position: fixed;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        opacity: 30%;
+        z-index: 2;
+
+    }
+
+    #menu.hidden li {
+        margin: 10px;
+        text-align: center;
+    }
+
+    #menu.hidden a {
+        display: block;
+        color: white;
+        padding: 10px ;
+        text-decoration: none;
+    }
+
+    .sticky {
+        position: sticky;
+        top: 0;
+    }
+}
+
+@media (max-width: 680px) {
+    .project {
+        background-color: #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        width: 100%;
+    }
+}
+
