@@ -13,6 +13,27 @@ header {
     padding: 20px;
 }
 
+.my-button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    /* Inre utfyllnad (topp och botten, vänster och höger) */
+    border: none;
+    /* Ingen kant */
+    border-radius: 5px;
+    /* Avrundade kanter */
+    text-decoration: none;
+    /* Ta bort understrykning från länken */
+    display: inline-block;
+    /* Visa som en inline-block för att behålla storlek */
+  }
+  
+  /* Ändra färgen på knappen när du hovrar över den */
+  .my-button:hover {
+    background-color: #aaaaaa;
+  }
+  
+
 /* Anpassa utseendet för bilden med en rund ram */
 .circular-image {
     width: 220px;
