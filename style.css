@@ -17,24 +17,70 @@ header {
     background-color: #ffffff;
     color: #000000;
     padding: 10px 20px;
-    /* Inre utfyllnad (topp och botten, vänster och höger) */
     border: none;
-    /* Ingen kant */
     border-radius: 5px;
-    /* Avrundade kanter */
     text-decoration: none;
-    /* Ta bort understrykning från länken */
     display: inline-block;
-    /* Visa som en inline-block för att behålla storlek */
   }
   
-  /* Ändra färgen på knappen när du hovrar över den */
   .my-button:hover {
     background-color: #aaaaaa;
   }
-  
 
-/* Anpassa utseendet för bilden med en rund ram */
+/* Styla rating-kolumnen */
+.rating {
+    position: relative;
+  }
+  
+  .rating-bar {
+    width: 100px;
+    height: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .fillh {
+    height: 100%;
+    width: 80%;
+    background-color: #333;
+  }
+  
+  .fillcss {
+    height: 100%;
+    width: 80%;
+    background-color: #333;
+  }
+  
+  .filljs {
+    height: 100%;
+    width: 60%;
+    background-color: #333;
+  }
+  
+  .fillp {
+    height: 100%;
+    width: 60%;
+    background-color: #333;
+  }
+  
+  .fillsql {
+    height: 100%;
+    width: 70%;
+    background-color: #333;
+  }
+  
+  .fillts {
+    height: 100%;
+    width: 50%;
+    background-color: #333;
+  }
+  
+  .rating-value {
+    position: absolute;
+    top: 0;
+    left: 110px;
+    font-weight: bold;
+  }
+
 .circular-image {
     width: 220px;
     max-width: 220px;
