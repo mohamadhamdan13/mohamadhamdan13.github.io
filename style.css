@@ -21,6 +21,7 @@ header {
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
+ 
   }
   
   .my-button:hover {
@@ -36,7 +37,8 @@ header {
     width: 100px;
     height: 20px;
     background-color: #f0f0f0;
-  }
+    margin-left: 90px 
+   }
   
   .fillh {
     height: 100%;
@@ -79,6 +81,8 @@ header {
     top: 0;
     left: 110px;
     font-weight: bold;
+    margin-left: 90px
+    
   }
 
 .circular-image {
@@ -141,12 +145,12 @@ section {
     color: #1350b3;
   }
   
-  .fa-phone {
+  .phone-link {
     text-decoration: none;
     color: inherit;
   }
   
-  .fa-phone:hover {
+  .phone-link:hover {
     text-decoration: underline;
     color: #1350b3;
 }
