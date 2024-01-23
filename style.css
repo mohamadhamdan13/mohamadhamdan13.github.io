@@ -75,6 +75,12 @@ header {
     width: 50%;
     background-color: #333;
   }
+
+  .fillc {
+    height: 100%;
+    width: 50%;
+    background-color: #333;
+  }
   
   .rating-value {
     position: absolute;
@@ -82,7 +88,6 @@ header {
     left: 110px;
     font-weight: bold;
     margin-left: 90px
-    
   }
 
 .circular-image {
