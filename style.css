@@ -76,6 +76,12 @@ header {
     background-color: #333;
   }
   
+  .fillc {
+    height: 100%;
+    width: 50%;
+    background-color: #333;
+  }
+  
   .rating-value {
     position: absolute;
     top: 0;
